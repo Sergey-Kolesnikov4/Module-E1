@@ -1,0 +1,75 @@
+.body {
+    margin: 10px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    float: left;
+    padding: 0 90px;
+    background-color: #101010;
+    text-align: justify;
+}
+
+.navigation a li {
+    color: white;
+    font-size: 1.5em;
+    padding-top:40px;
+}
+
+.navigation a:hover {
+    background-color: blue;
+
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+    color: white;
+}
+
+.inner-header {
+    height: 100%;
+    float: left;
+    padding: 0 20px;
+    background-color: #101010;
+    color: white;
+}
+
+
+.shadow-text {
+    color: #f5f2ee; /* Цвет  текста */
+    font-size: 2em; /* Размер  текста */
+    font-weight: bold;
+    padding: 20px 0;
+    text-transform: uppercase;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.shadow-text:hover {
+    color: #f66d52; /* Меняем цвет текста */
+}
+
+.content {
+    padding-top:110px;
+    padding-left:180px;
+}
+
+.header {
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+    margin-left: -20px;
+    margin-top: -40px;
+    float: left;
+    background-color: #101010;
+}
